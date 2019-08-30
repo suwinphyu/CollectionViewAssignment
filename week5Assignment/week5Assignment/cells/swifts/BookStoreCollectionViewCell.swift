@@ -22,6 +22,7 @@ class BookStoreCollectionViewCell: UICollectionViewCell {
             labelBookTitle.text = bookData.title
             labelAuthor.text = bookData.author
             imageViewBook.image = bookData.bookimage
+            imageViewBook.layer.cornerRadius = 10
         }
     }
     

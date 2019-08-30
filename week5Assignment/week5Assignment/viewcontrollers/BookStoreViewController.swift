@@ -26,7 +26,7 @@ class BookStoreViewController: UIViewController {
         collectionViewBookStore.delegate = self
         collectionViewBookStore.dataSource = self
         collectionViewBookStore.registerForItem(strID: String(describing:BookStoreCollectionViewCell.self ))
-        
+    
         //Flowlayout
         let totalPadding : CGFloat = numberOfItemsPerRow * spacing
         let itemWidth = (self.view.frame.width - totalPadding) / numberOfItemsPerRow
